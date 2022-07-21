@@ -503,7 +503,9 @@ responsiveness mobie
     .news-info {
         margin-top: 0px;
     }
-
+.vanish9{
+    display: none;
+}
     .home-image img {
         width: 323px;
         height: 340px;
