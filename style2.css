@@ -291,163 +291,6 @@ footer hr {
 
 }
 
-/*---------------
-responsiveness mobie 
------------------*/
-@media only screen and (max-width: 688px) {
-    body {
-        width: 100%;
-
-
-    }
-
-    .cover {
-        overflow-x: hidden;
-    }
-
-    .home-details {
-        width: 334px;
-        height: 500px;
-        margin-left: 12%;
-
-    }
-
-    .home-image {
-        margin-bottom: 500px;
-    }
-
-    .home-image img {
-        width: 233px;
-        height: 245px;
-
-    }
-
-    .main-titles h1 {
-        font-size: 20px;
-        font-weight: bold;
-        margin-top: 45px;
-
-
-    }
-
-    .main-titles p {
-        font-size: 10px;
-
-    }
-
-    .main-titles a {
-        font-size: 20px;
-        background-color: #aa4c4c;
-        padding: 5px 10px;
-    }
-
-    .main-titles {
-        width: 150PX;
-        text-align: center;
-        margin-top: -37px;
-
-
-    }
-
-    .main-image {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        align-items: center;
-
-
-
-
-    }
-
-    .flag-pic {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        align-items: center;
-        margin-left: 13%;
-
-
-    }
-
-    .news {
-        width: 210px;
-    }
-
-    .news-options {
-        display: block;
-
-
-    }
-
-    .news-info {
-        margin-top: 0px;
-    }
-
-    .options {
-        background-color: transparent;
-        text-align: center;
-
-
-    }
-
-    .inactive1 a {
-        border: 1px solid #e9e4e4;
-        border-radius: 5px;
-        padding: 10px 15px;
-
-    }
-
-
-    .inactive2 a {
-        border: 1px solid #e9e4e4;
-        border-radius: 5px;
-        font-size: 20px;
-        padding: 10px 30px;
-    }
-
-    .active a {
-        padding: 10px 40px;
-    }
-
-
-
-    footer {
-        width: 100%;
-        overflow-x: hidden;
-
-
-
-    }
-
-    footer hr {
-        width: 335px;
-    }
-
-    .footer-links li {
-        list-style-type: none;
-
-
-
-    }
-
-    .footer-links {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        text-align: center;
-        margin-right: 70px;
-    }
-
-
-    .icons {
-        margin: 10px;
-    }
-
-
-
-
-}
-
-
-
 /* responsiveness tablet */
 
 
@@ -605,5 +448,155 @@ responsiveness mobie
 
     .new-line {
         margin: 20px;
+    }
+}
+/*---------------
+responsiveness mobie 
+-----------------*/
+@media only screen and (max-width: 688px) {
+    body {
+        width: 100%;
+
+
+    }
+
+    .cover {
+        overflow-x: hidden;
+    }
+
+    .home-details {
+        width: 334px;
+        height: 500px;
+        margin-left: 12%;
+
+    }
+
+    .home-image {
+        margin-bottom: 500px;
+    }
+
+    .home-image img {
+        width: 233px;
+        height: 245px;
+
+    }
+
+    .main-titles h1 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 45px;
+
+
+    }
+
+    .main-titles p {
+        font-size: 10px;
+
+    }
+
+    .main-titles a {
+        font-size: 20px;
+        background-color: #aa4c4c;
+        padding: 5px 10px;
+    }
+
+    .main-titles {
+        width: 150PX;
+        text-align: center;
+        margin-top: -37px;
+
+
+    }
+
+    .main-image {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+
+
+
+
+    }
+
+    .flag-pic {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        margin-left: 13%;
+
+
+    }
+
+    .news {
+        width: 210px;
+    }
+
+    .news-options {
+        display: block;
+
+
+    }
+
+    .news-info {
+        margin-top: 0px;
+    }
+
+    .options {
+        background-color: transparent;
+        text-align: center;
+
+
+    }
+
+    .inactive1 a {
+        border: 1px solid #e9e4e4;
+        border-radius: 5px;
+        padding: 10px 15px;
+
+    }
+
+
+    .inactive2 a {
+        border: 1px solid #e9e4e4;
+        border-radius: 5px;
+        font-size: 20px;
+        padding: 10px 30px;
+    }
+
+    .active a {
+        padding: 10px 40px;
+    }
+
+
+
+    footer {
+        width: 100%;
+        overflow-x: hidden;
+
+
+
+    }
+
+    footer hr {
+        width: 335px;
+    }
+
+    .footer-links li {
+        list-style-type: none;
+
+
+
+    }
+
+    .footer-links {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        margin-right: 70px;
+    }
+
+
+    .icons {
+        margin: 10px;
     }
 }
