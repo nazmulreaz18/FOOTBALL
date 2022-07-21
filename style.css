@@ -365,7 +365,9 @@ Responsiveness tablet
 
 
     }
-
+.vanish9{
+    display: none;
+}
     .options {
         background-color: transparent;
         margin-bottom: -150px;
@@ -503,18 +505,12 @@ Responsiveness Mobile
         text-align: center;
         margin-top: -37px;
 
-
-
-
     }
 
     .main-image {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
-
-
-
 
     }
 
